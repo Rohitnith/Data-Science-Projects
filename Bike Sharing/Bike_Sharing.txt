@@ -1,0 +1,14 @@
+
+LR Assignment
+
+-Github Repository Link
+https://github.com/Rohitnith/LR_Bike_Sharing
+
+- Python Notebook Link
+https://github.com/Rohitnith/LR_Bike_Sharing/blob/main/A%20bike-sharing%20system%2011.04.2022.ipynb
+
+- Subjection Question link
+https://github.com/Rohitnith/LR_Bike_Sharing/blob/main/Subjective%20question.pdf
+
+- Read Me File link
+https://github.com/Rohitnith/LR_Bike_Sharing/blob/main/README.md
