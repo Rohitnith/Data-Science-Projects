@@ -5,28 +5,25 @@ Telecommunication industry, customers tend to change operators if not provided w
 It is very important for any telecom operator to prevent the present customers from churning to other operators. 
 As a data scientist, our task in this case study would be to build an ML model which can predict if the customer will churn or not in a particular month based on the past data.
 
-## General Information
+## Introduction 
 
-##Introduction 
-
-The main goal of the case study is to build ML models to predict churn. The predictive model that you’re going to build will the following purposes:
+The main goal of the case study is to build ML models to predict churn. The predictive model that we are going to build will the following purposes:
 It will be used to predict whether a high-value customer will churn or not, in near future (i.e. churn phase). By knowing this, the company can take action steps such as providing special plans, discounts on recharge etc.
 It will be used to identify important variables that are strong predictors of churn. These variables may also indicate why customers choose to switch to other networks.
-Recommend strategies to manage customer churn based on your observations.
+Recommend strategies to manage customer churn based on  observations.
 
 ## Business Problem Statement
 
 - Predict whether a high-value customer will churn or not, in near future
   By knowing this, the company can take action steps such as providing special plans, discounts on recharge etc. and for this purpose best model is Logistic Regression ehich can be used to explain the result for all the customers.
 - Identify important variables that are strong predictors of churn
-- Overall accuracy of the models will be your primary evaluation metric, you should also mention other metrics like precision, recall etc.
+- Overall accuracy of the models will be our primary evaluation metric, we should also mention other metrics like precision, recall etc.
 - Predict highest acuuracy as overall accuracy is primary evaluation metric in Kaggle.
-- Recommend strategies to manage customer churn based on your observations
+- Recommend strategies to manage customer churn based on  observations
 
 ## Business Goal
    Model will only be able to achieve one of the two goals:
-- To predict customers who will churn. You can’t use the above model to identify the important features for churn. 
-  You should be use PCA usually creates components that are not easy to interpret.
+- To predict customers who will churn.
 - Build another model with the main objective of identifying important predictor attributes which help the business understand indicators of churn. 
   Good choice to identify important variables is a logistic regression model or a model from the tree family. 
 
@@ -54,7 +51,7 @@ Solution.csv
 
 Use of this dataset in publications must be cited to the following publication:
 Please refer the Kaggle website
-=========================================
+
 ## Conclusions
 
 ### 7.1 Model 1: For interpretation
