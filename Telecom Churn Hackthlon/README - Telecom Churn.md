@@ -52,12 +52,12 @@ Please refer the Kaggle website
 
 ## Conclusions
 
-# 7.1 Model 1: For interpretation
+### 7.1 Model 1: For interpretation
 	1. Maximum factors which are effecting churn are for month August.
-	2. Churn rate is high when Total incoming and ougoing minutes for voice calls in August is lower. Thus if no of incoming and outgoing calls are decreasing for 		a particular customer there is high change he may be switching to another network.
-	3. Lower Service schemes with validity equivalent to a month for 3G in August also indicates higher probability of churn. If network condition in a place is 		good, customers will use data early thus there will more no. of recharges and thus less chances of churn, however if network is poor then data will not be 		consumed and thus no. of monthly recharges will be less, leading to churn.
-	4. If incoming calls are high and outgoing calls are less then customer may be finding the services very costly and may switch to network where incoming and 		outgoing services are in less/reasonable according to him/her.
-# 7.2 Model 2: For purpose of accurate prediction
+	2. Churn rate is high when Total incoming and ougoing minutes for voice calls in August is lower. Thus if no of incoming and outgoing calls are decreasing for a particular customer there is high change he may be switching to another network.
+	3. Lower Service schemes with validity equivalent to a month for 3G in August also indicates higher probability of churn. If network condition in a place is good, customers will use data early thus there will more no. of recharges and thus less chances of churn, however if network is poor then data will not be 	consumed and thus no. of monthly recharges will be less, leading to churn.
+	4. If incoming calls are high and outgoing calls are less then customer may be finding the services very costly and may switch to network where incoming and outgoing services are in less/reasonable according to him/her.
+#### 7.2 Model 2: For purpose of accurate prediction
 	Final Model for Submission is XGBoosting model with test accuracy of 94.58%.
 
 Created by- @Rohitcnith & @GiridharTarare
