@@ -17,16 +17,14 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- From the M1 model history graphs we can clearly observe that our model is **over fitting** since as you increase the epoches we can see the training accuracy is increasing but validation accuracy is staying down.
-- We can see in Model M2 we introducded augmented layer and Dropout layers and also we removed Overfitting because training and validation accuracy is nearly same across all the epoches but main problem is accuracy is not good , so we will now deal with one common problem named class imabalance.
-- From the Model M3, Class rebalance helped so much that our accuracy is increased from 60 to 80 using the class rebalance technique . From above graph we can also observe that at 20 epoches our model is stabilized, beyong 20 epoches our model is overfitting.
+- From the M1 model it can be seen that model is over fitting since as with increase in the epoches training accuracy is increasing but validation accuracy is not increasing and is somewhat peaked out.
+- We can see in Model M2 there is an issue of underfitting as train accuracy is only ~0.55, therfore further investigation of data is required to find out reason for low train accuracy.
+- From the Model M3, Class rebalance has helped to increase accurcacy from ~58 to 80 using the class rebalance technique and model is not overfitting..
 
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- TensorFlow - version 2.8
+- TensorFlow 
 - Matplotlib
 - Pandas
 - Numpy
@@ -40,11 +38,6 @@ Give credit here.
 
 
 ## Contact
-Created by [@loksundar] - feel free to contact me! - loksundar000@gmail.com
+Created by [@Rohitnith] - feel free to contact me! - 
+rohitc.nith@gmail.com
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
