@@ -1,5 +1,5 @@
 # Upgrad_Melonoma
-> To build a multiclass classification model using a custom convolutional neural network in TensorFlow which can accurately detect melanoma.
+> To build a multiclass classification model using a custom convolutional neural network  which can accurately detect Melanoma.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -17,7 +17,7 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- From the M1 model it can be seen that model is over fitting since as with increase in the epoches training accuracy is increasing but validation accuracy is not increasing and is somewhat peaked out, reason for smae could be less data as we know CNN requires a lot of data for training.
+- From the M1 model it can be seen that model is over fitting since as with increase in the epochs training accuracy is increasing but validation accuracy is not increasing and is somewhat peaked out, reason for same could be less data as we know CNN requires a lot of data for training.
 - We can see in Model M2 there is an issue of underfitting as train accuracy is only ~0.53, therfore further investigation of data is required to find out reason for low train accuracy which may be due to class imbalance.
 - From the Model M3, Class rebalance using the Augmentor library has helped to increase validation accurcacy from ~50 to 82 and model is not overfitting. One important fact to notice here is that till approx. 25 epochs validation acc. is more than training acc., which may be due to implementation of dropouts during training which are not implemented while testing model.
 
