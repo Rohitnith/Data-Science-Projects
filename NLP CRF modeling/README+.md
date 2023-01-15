@@ -3,10 +3,10 @@
 
 
 ## Table of Contents
-* [General Info]
-* [Technologies Used]
-* [Conclusions]
-* [Acknowledgements]
+* General Info
+* Technologies Used
+* Conclusions
+* Acknowledgements
 
 <!-- You can include any other section that is pertinent to your problem -->
 
