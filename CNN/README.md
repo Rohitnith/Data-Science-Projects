@@ -1,4 +1,4 @@
-# Upgrad_Melonoma
+# Melonoma Detection 
 > To build a multiclass classification model using a custom convolutional neural network  which can accurately detect Melanoma.
 
 ## Table of Contents
