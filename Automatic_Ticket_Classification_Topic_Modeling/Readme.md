@@ -35,3 +35,5 @@ We need to perform the following eight major tasks to complete the assignment:
 7. Model training and evaluation
 
 8. Model inference
+
+Data for the project could not be uploaded due to size constraint in GitHub
