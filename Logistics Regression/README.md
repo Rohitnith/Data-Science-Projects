@@ -1,5 +1,5 @@
 # Problem Statement
-Aim of this exercise is to get initial insights of the dataset and develop a predictor model using logistic regression algorithm.
+Aim of this exercise is to get initial insights of the dataset and develop a predictor model using logistic regression algorithm which can classify Heart Disease.
 
 # Methodology
 Logistic regresion model development is divided into multiple stpes as mentioned below,
